@@ -1,0 +1,27 @@
+@-moz-document url-prefix(about:blank) {
+    html > body:empty {
+        background-color: rgb(26,28,29) !important;
+    }
+}
+@-moz-document url(about:blank) {
+    html > body:empty {
+        background-color: rgb(26,28,29) !important;
+    }
+}
+
+
+@-moz-document url("about:blank") {
+    @media (prefers-color-scheme: dark) {
+        :root {
+            background-color: #1a1c1d;
+        }
+    }
+}
+
+
+
+
+
+:root{ scrollbar-width: none !important } 
+
+
