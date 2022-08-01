@@ -1,7 +1,6 @@
 	@font-face
 {
-    font-family: "mononoki";
-    font-family: "Noto Sans JP"
+    font-family:  cascadia code;
     font-size: 20px;
 }
 
@@ -20,12 +19,13 @@ html {
 
 body {
 
-    font-family: "mononoki";
-    font-size: 20px;
-    font-weight: bold;
+    font-family: cascadia code;
+    font-size: 20px !important;
+    font-weight: normal;
     background-color: #161615;
-    display:table-cell ;
+    display: table-cell;
     vertical-align: middle;
+
 }
 
 }
@@ -58,17 +58,17 @@ ul:last-of-type {
 }
 
 ul[class=green]:hover {
-	color: white;
+	color: #EBEAE9;
 }
 
 ul[class=blue]:hover {
-	color: white;
+	color: #EBEAE9;
 }
 ul[class=red]:hover {
-	color: white;
+	color: #EBEAE9;
 }
 ul[class=yellow]:hover {
-	color: white;
+	color: #EBEAE9;
 }
 
 ul > li:first-of-type{
@@ -78,27 +78,27 @@ ul > li:first-of-type{
 
 ul > li > a {
 	text-decoration:none;
-	color: #EBEAE9;
-	transition: all 0.8s;
+	color: #847a6d;
+	transition: all 0.2s;
 }
 
 ul[class=green] > li > a:hover {
-	color: white;
+	color: #EBEAE9;
 	transition: all 0.2s;
 }
 
 ul[class=blue] > li > a:hover {
-	color: white;
+	color: #EBEAE9;
 	transition: all 0.2s;
 }
 
 ul[class=red] > li > a:hover {
-	color: white;
+	color: #EBEAE9;
 	transition: all 0.2s;
 }
 
 ul[class=yellow] > li > a:hover {
-	color: white;
+	color: #EBEAE9;
 	transition: all 0.2s;
 }
 
