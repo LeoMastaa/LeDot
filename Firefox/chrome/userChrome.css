@@ -1,12 +1,4 @@
-
-@font-face
-{
-    font-family: "Mononoki";
-
-}
-
-
-#navigator-toolbox { font-family: Mononoki !important }
+#navigator-toolbox { font-family: cascadia code !important }
 
 
 :root {
@@ -101,17 +93,17 @@ background-color: white !important;
 scrollbox[orient="horizontal"]{ -moz-box-pack: center; }
 
 /* TAB TEXT COLOR*/
-.tabbrowser-tab .tab-label[selected="true"] { color: white !important; }
+.tabbrowser-tab .tab-label[selected="true"] { color: #EBEAE9 !important; }
 
 /* INACTIVE TAB TEXT COLOR*/
 .tabbrowser-tab .tab-label { 
-color: #707070 !important;
+color: #847a6d !important;
 transition-duration: 0.35s;
  }
 
 /* INACTIVE TAB HOVER*/
 .tabbrowser-tab:hover:not([selected]) .tab-label { 
-color: white !important; 
+color: #EBEAE9 !important; 
 transition-duration: 0.35s;
 }
 
@@ -301,5 +293,4 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 browser[type=content-primary],browser[type=content] > html {
     background: #161615 !important
 }
-
 
