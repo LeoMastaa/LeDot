@@ -7,6 +7,9 @@ user_pref("keyword.enabled", true);
 //Enable Search Engine suggestion
 user_pref("browser.search.suggest.enabled", false);
 user_pref("browser.urlbar.suggest.searches", false);
+//Homepage
+user_pref("browser.startup.homepage", "about:blank");  //set the homepage directory
+user_pref("browser.startup.page", 1);
 
 //Firefox stores passwords in plain text and obsolete if you use a password manager.
 //Mozilla also told people to stop using their password manager.
